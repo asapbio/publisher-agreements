@@ -8,7 +8,8 @@ It attempts to provide a resource to answer the [following tweet](https://twitte
 ## Files
 
 [`01.romeo.ipynb`](01.romeo.ipynb) downloads information from SHERPA/RoMEO's API and extract copyright links.
-Links are saved in [`data/romeo-publisher-links.tsv`](data/romeo-publisher-links.tsv).
+Links are saved in `data/romeo-publisher-links.tsv`.
+However, this file is not tracked in this repository pending licensing clarification, since it could be considered a RoMEO derivative, which has a No Derivatives clause in its license.
 
 ## License
 
