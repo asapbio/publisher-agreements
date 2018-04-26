@@ -9,11 +9,16 @@ It attempts to provide a resource to answer the [following tweet](https://twitte
 
 [`01.romeo.ipynb`](01.romeo.ipynb) downloads information from SHERPA/RoMEO's API and extract copyright links.
 Links are saved in `data/romeo-publisher-links.tsv`.
-However, this file is not tracked in this repository pending licensing clarification, since it could be considered a RoMEO derivative, which has a No Derivatives clause in its license.
 
 ## License
 
 All original work in this repository is dedicated to the public domain under the CC0 license.
 See [LICENSE.md](LICENSE.md).
 
-[SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php) releases its data under a [CC BY-NC-ND 2.0 UK](https://creativecommons.org/licenses/by-nc-nd/2.0/uk/) license.
+[SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php) releases its data downloads under a [CC BY-NC-SA 2.5](https://creativecommons.org/licenses/by-nc-sa/2.5/) License according to the following statement in [`romeo-publishers.xml`](data/romeo-publishers.xml):
+
+> SHERPA/RoMEO data is available for re-use under a Creative Commons Attribution-Non-Commercial-Share Alike 2.5 licence.
+For more details, please see the 'conditions for re-use' at http://www.sherpa.ac.uk/romeoreuse.html, and linked-to from the SHERPA/RoMEO home page.
+
+Therefore, datasets derived from `romeo-publishers.xml` in this repository are also released under a CC BY-NC-SA 2.5 License.
+This includes [`romeo-publisher-links.tsv`](data/romeo-publisher-links.tsv).
